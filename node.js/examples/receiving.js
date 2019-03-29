@@ -63,8 +63,6 @@ noble.on('discover', function(peripheral)
     noble.stopScanning();
     peripheral.connect(function(error) 
     {
-		
-	/*sending data back to the the microbit*/
       /*
       peripheral.discoverServices(['E95DD91D251D470AA062FA1922DFA9A8'.toLowerCase()], function(error, services) 
       {
